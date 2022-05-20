@@ -1,0 +1,12 @@
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Conceição Aparecida', '12345678992', '1420', TIMESTAMP WITH TIME ZONE '1967-10-01T10:00:00Z', '5');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Jonas Gutierre', '12378945601', '2580', TIMESTAMP WITH TIME ZONE '1984-12-01T13:00:00Z', '1');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Alexander Roskov', '78945612312', '3200', TIMESTAMP WITH TIME ZONE '1973-11-30T10:00:00Z', '2');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Jaqueline Fraga', '11145578825', '1550', TIMESTAMP WITH TIME ZONE '1955-09-25T10:00:00Z', '3');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Tereza de Souza', '22245799922', '5000', TIMESTAMP WITH TIME ZONE '2001-08-08T10:00:00Z', '0');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Victor Douglas', '10355880922', '7820', TIMESTAMP WITH TIME ZONE '2000-03-02T10:00:00Z', '1');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('José João da Silva', '20212123248', '1000', TIMESTAMP WITH TIME ZONE '1993-07-05T10:00:00Z', '4');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Enzo Castelari', '22222222222', '1755', TIMESTAMP WITH TIME ZONE '1997-04-24T10:00:00Z', '1');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Cintia Carolina', '14785296325', '1488', TIMESTAMP WITH TIME ZONE '1985-05-21T10:00:00Z', '2');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Thiago Arquimedes', '15975346822', '3220', TIMESTAMP WITH TIME ZONE '1988-06-18T10:00:00Z', '3');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Silvia Cruz', '25857595620', '4000', TIMESTAMP WITH TIME ZONE '1945-02-15T10:00:00Z', '7');
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Henrique Jorge', '94678531246', '2200', TIMESTAMP WITH TIME ZONE '1973-01-12T10:00:00Z', '4');

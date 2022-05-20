@@ -30,7 +30,7 @@ public class ClientResource {
 
 	@GetMapping
 	public ResponseEntity<Page<ClientDTO>> findAll(@RequestParam(value = "page", defaultValue = "0") Integer page,
-			@RequestParam(value = "linesPerPage", defaultValue = "12") Integer linesPerPage,
+			@RequestParam(value = "linesPerPage", defaultValue = "20") Integer linesPerPage,
 			@RequestParam(value = "direction", defaultValue = "ASC") String direction,
 			@RequestParam(value = "orderBy", defaultValue = "name") String orderBy) {
 
@@ -47,7 +47,7 @@ public class ClientResource {
 		return ResponseEntity.ok().body(dto);
 	}
 
-	@PostMapping(value = "/{id}")
+	@PostMapping
 	public ResponseEntity<ClientDTO> insert(@RequestBody ClientDTO dto) {
 		dto = service.insert(dto);
 		URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(dto.getId()).toUri();
